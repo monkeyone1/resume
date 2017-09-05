@@ -1,0 +1,7 @@
+@for $i from 1 through 17 {
+    .section#{$i} {
+        background: url("../images/#{$i}.jpg") top center;
+        background-size: cover;
+ }
+}
+
